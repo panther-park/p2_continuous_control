@@ -59,8 +59,33 @@ The environment is considered solved, when the average (over 100 episodes) of th
     (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip) (version 1) or [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) (version 2) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
+    
+### Installation
+
+For executing the codes in this project you will need a Python3.5+ interpreter and other dependencies installed, according to your OS:
+1. Install Anaconda©: https://conda.io/docs/user-guide/install/index.html#
+2. Initiate a conda environment with Python 3.5+	
+3. Instal the following packages and their dependencies:
+	- numpy: https://scipy.org/install.html
+	- matplotlib: https://matplotlib.org/users/installing.html
+	- PyTorch: https://pytorch.org/get-started/locally/
+	- Unity ML: https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md
+
+4. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+    
+    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
+
+    (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
+
+### Running the code
+
+After all packages have been installed in the environment you should open Jupyter Notebook using Anaconda find and open `Continuous_Control.iypnb` archive. To run the cells you can simply click on the first one and press `Shift + Enter`. This can be made through the whole Notebook.
 
 2. Place the file in the DRLND GitHub repository, in the `p2_continuous-control/` folder, and unzip (or decompress) the file. 
 
 ### Instructions
-`Continuous_Control.ipynb` contains all the necessary cells to be run for this project. 
+In the directory containing this repository, open Jupyter Notebook and navigate to `Continuous_Control.ipynb`. By clicking Cell -> Run All or Shift + Enter throughout the entire notebook, the cells can be executed. 
